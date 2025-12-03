@@ -1,6 +1,7 @@
 name: data-viz-2025
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - jupyterlab
   - python=3.10
@@ -18,4 +19,6 @@ dependencies:
   - pyvista
   - wordcloud
   - dash
+  - pip:
+      - nxviz
 prefix: /opt/miniconda3/envs/data-viz-2025
